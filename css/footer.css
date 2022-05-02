@@ -1,0 +1,78 @@
+footer{
+    margin-top: -37px;
+    padding-top: 90px;
+    padding-bottom: 30px;
+    background: url(../images/footer/footer_bg.png) center top;
+    background-size: cover;
+    position: relative;
+    z-index: 20;
+    text-align: center;
+}
+
+footer .utile-wrap{
+    margin: 20px 0 10px;
+    clear: none;
+}
+footer .utile-wrap > li{
+    display: inline-block;
+    position: relative;
+    margin-right: 30px;
+    vertical-align: top;
+}
+footer .utile-wrap > li:last-child{
+    margin-right: 0;
+}
+footer .utile-wrap > li > a{
+    display: block;
+    width: 100%;
+    height: 24px;
+    font-size: 14px;
+    color: #fff;
+}
+footer .utile-wrap > li:first-child > a{
+    font-weight: bold;
+}
+footer .utile-wrap > li > a::after{
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: -17px;
+    width: 1px;
+    height: 15px;
+    background: #fff;
+    content: '';
+    vertical-align: top;
+}
+footer .utile-wrap > li:last-child > a::after{
+    display: none;
+}
+
+footer address{
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    font-style: normal;
+}
+footer address > span > a{
+    display: inline-block;
+    font-size: 14px;
+    color: #fff;
+}
+footer p{
+    display: inline-block;
+    font-size: 14px;
+    color: #fff;
+}
+footer .validator{
+    margin-top: 24px;
+}
+
+footer p::before{
+    display: inline-block;
+    content: '';
+    width: 1px;
+    height: 12px;
+    margin: -2px 15px 0 10px;
+    background: rgba(255,255,255,.5);
+    vertical-align: middle;
+}
